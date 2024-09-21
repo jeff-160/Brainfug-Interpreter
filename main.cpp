@@ -33,13 +33,11 @@ optional<string> GetFileContents(string path){
 }
 
 int main(){
-    cout << "Brainfuck Interpreter\n(c) WAP Industries.\n";
-    
     while (true){
         Interpreter.Init();
         
         string input;
-        cout << "\n>> ";
+        cout << ">> ";
         cin>>input;
         if (input=="quit") 
             break;
